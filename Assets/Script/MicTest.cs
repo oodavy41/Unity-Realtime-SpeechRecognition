@@ -94,7 +94,7 @@ public class MicTest : MonoBehaviour {
         float ret = 0;
         foreach(float i in arry)
         {
-            ret += i;
+            ret += Math.Abs(i);
         }
         ret /= arry.Length;
         return ret;
